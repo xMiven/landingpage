@@ -1,0 +1,166 @@
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #1f2937;
+}
+
+.top {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+a {
+  font: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+img {
+  height: 200px;
+  width: 200px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-bottom: 30px;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-shrink: 3;
+  max-width: 40%;
+}
+.bottom h1 {
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.bottom p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.bottom button {
+  width: 20%;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-radius: 20px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.images {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 20px;
+  gap: 30px;
+}
+
+.imageblock {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+}
+
+.imageblock img {
+  border: solid 5px #3882f6;
+  border-radius: 5%;
+}
+
+.hero h2 {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+}
+
+.quoteblock {
+  display: flex;
+  flex-direction: column;
+  background-color: #e5e7eb;
+}
+
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-style: italic;
+  align-self: center;
+}
+.author {
+  display: flex;
+  justify-content: space-evenly;
+}
+.call {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  max-width: 80%;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-around;
+  padding: 0 20px;
+  margin: 20px 0;
+  border-radius: 20px;
+}
+
+.box button {
+  width: 100px;
+  max-height: 20px;
+  align-self: center;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100px;
+}
+
+.text p {
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+}
+
+.footer p {
+  color: #e5e7eb;
+}
