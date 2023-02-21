@@ -77,8 +77,6 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 0;
-  padding: 0;
 }
 
 .images {
@@ -109,6 +107,7 @@ img {
   display: flex;
   flex-direction: column;
   background-color: #e5e7eb;
+  margin-top: 30px;
 }
 
 .quote {
