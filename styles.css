@@ -139,19 +139,25 @@ img {
 
 .box button {
   width: 100px;
-  max-height: 20px;
+  max-height: 30px;
   align-self: center;
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border-color: #e5e7eb;
+  border-radius: 25px;
 }
 .text {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   height: 100px;
 }
 
 .text p {
   margin: 0;
   padding: 0;
+  width: 80%;
+  color: #e5e7eb;
 }
 
 .footer {
@@ -163,4 +169,8 @@ img {
 
 .footer p {
   color: #e5e7eb;
+}
+
+.bold {
+  font-weight: bold;
 }
